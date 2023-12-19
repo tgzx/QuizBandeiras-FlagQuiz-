@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-size: cover;
+}
+.container-Div{
+    display: flex;
+    width: 420px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: rgba(128, 128, 128, 0.829);
+    background-color: white;
+    margin-bottom: 200px;
+}
+.container-Div button{
+    background-color: white;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+h1{
+    margin-bottom: 90px;
+    font-size: 60px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Titulo-game{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-Div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18rem;
+        justify-content: space-evenly;
+    }
+    .Titulo-game{
+        font-size: 1.5rem;
+    }
+    .container-Div button{
+        width: 100px;
+    }
+}
