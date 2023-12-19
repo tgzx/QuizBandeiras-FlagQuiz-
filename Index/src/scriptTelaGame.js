@@ -96,7 +96,7 @@ function abrirModalFinal(){
     btnElementExit.classList.add("btn-modal")
     var linkBtn = document.createElement("a")
     linkBtn.textContent = "Sair"
-    linkBtn.href = "indextelaprincipal.html"
+    linkBtn.href = "../Aprincipal.html"
     linkBtn.style.textDecoration = "none"
     linkBtn.style.color = "black"
 
