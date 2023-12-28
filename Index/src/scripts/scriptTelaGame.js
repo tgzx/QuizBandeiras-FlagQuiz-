@@ -186,7 +186,7 @@ function randomflag() {
   intervalId = setInterval(Atualizarcronometro, 1000);
   const numeroAleatorio = Math.floor(Math.random() * codigoPaises.length);
   var bandeira = codigoPaises[numeroAleatorio];
-  imagemBandeira.src = `../../../assets/imgBandeiras/${bandeira}.png`;
+  imagemBandeira.src = `Index/assets/imgBandeiras/${bandeira}.png`;
   imagemBandeira.style.width = "250px";
   var nomebandeiraCorreto = bandeirasArray[bandeira];
 
